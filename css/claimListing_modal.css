@@ -1,0 +1,40 @@
+.form-control {
+	box-shadow: none;
+    border: 1px solid #E4E4E4;
+    background-color: #FFFFFF;
+    padding-right: 5px; 
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+#modal-title
+{
+	text-align: center;
+	color: #276ab1;
+	padding: 25px;
+}
+
+.submit-btn
+{
+	margin: 2% auto 2% 38%;
+}
+
+#modal-content
+{
+	padding: 25px;
+	border-radius: 0;
+}
+
+.conditions
+{
+	margin-top: 10%;
+}
+
+.submit-btn img
+{
+	margin-bottom: 20%;
+}
+

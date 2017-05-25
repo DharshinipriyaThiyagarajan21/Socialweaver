@@ -1,0 +1,144 @@
+.common-heading h4
+{
+	text-align: center;
+	font-size: 24px;
+}
+
+.common-heading
+{
+	padding: 8% 15% 3% 15%;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.life-stages li
+{
+  	box-shadow: 4.2px 6.8px 9.7px 0.3px rgba(0, 0, 0, 0.46);
+}
+
+.notes
+{
+	font-size: 14px;
+}
+
+.life-stages img
+{
+	width: 201px;
+	padding: 5%;
+}
+
+.life-stage-heading
+{
+	padding: 5% 5% 5% 10%;
+}
+
+.life-stages img.selected
+{
+	outline:solid 2px #276ab1;
+}
+
+.expected-due-date-heading
+{
+	padding:10%;
+}
+
+.expected-due-date
+{
+	padding: 5%;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+.next
+{
+	margin: 5% 45% 5% 45%;
+}
+
+.next img
+{
+	width: 200px;
+	height: 50px;
+}
+
+.step1
+{
+	background: #276ab1;
+	font-size: 24px;
+	color: #fff;
+	padding: 15px 20px 15px 20px;
+	text-align: center;
+	border-radius: 50%;
+	margin:20%;
+}
+
+.step2
+{
+	background: #276ab1;
+	font-size: 24px;
+	color: #fff;
+	padding: 15px 20px 15px 20px;
+	text-align: center;
+	border-radius: 50%;
+	margin:20%;
+	border:6px solid #ccc;
+}
+
+.step3
+{
+	background: #276ab1;
+	font-size: 24px;
+	color: #fff;
+	padding: 15px 20px 15px 20px;
+	text-align: center;
+	border-radius: 50%;
+	margin:20%;
+}
+
+/*.steps li img
+{
+	padding-left: 10%;
+	width: 94px;
+}*/
+
+.steps li
+{
+	padding-left:15%; 
+}
+
+.steps
+{
+	padding:3% 0% 3% 10%;
+}
+
+.steps p
+{
+	text-align: center;
+	color: #276ab1;
+	padding: 10px;
+	margin-top: 10%;
+}
+
+.help-btn
+{
+	background:#008000;
+	color: #fff;
+	margin:10%;
+}
+
+.help-btn:hover
+{
+	background:#008000;
+	color: #fff;
+}
+
+.help-btn:focus
+{
+	background:#008000;
+	color: #fff;
+}
+
+
+
+

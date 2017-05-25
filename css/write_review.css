@@ -1,0 +1,75 @@
+.form-control {
+	box-shadow: none;
+   border: 1px solid #E4E4E4;
+   background-color: #FFFFFF;
+   padding-right: 5px; 
+}
+
+.clearfix {
+	clear: both;
+}
+
+#modal-title {
+	text-align: center;
+	color: #276ab1;
+	padding: 25px;
+}
+
+.rating a {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-decoration: none;
+	margin-right:8%;
+	color: #276ab1;
+}
+
+.rating a:hover
+{
+	color: #276ab1;
+}
+
+.rating img
+{
+	padding-right: 10px;
+}
+
+.rating div {
+	padding: 10px;	
+}
+
+.submit-btn,.submit-btn:hover
+{
+	background: #276ab1;
+	padding: 5px 25px;
+	color: #fff;
+	margin: 10% auto 2% 45%;
+	border-radius: 0;
+}
+
+.limit {
+	color: #276ab1;
+}
+
+.review textarea {
+	height: 130px;
+}
+
+.add-btn {
+	background: #fff;
+	border-bottom:1px solid rgba(0,0,0,0.04);
+	color: #276ab1;
+}
+
+
+
+.glyphi-pic
+{
+	color: #276ab1;
+}
+
+.review-btn button
+{
+	margin-left: 5%;
+	padding: 5px 20px;
+	border-radius: 0;
+}

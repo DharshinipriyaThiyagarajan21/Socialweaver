@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Social Weaver Claim Listing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="dependencies/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="dependencies/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/write_review.css">
+</head>
+<body>
+
+<div class="">
+  <button class="btn btn-default click-btn" data-toggle="modal" data-target="#myModal">Click me</button>
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" id="modal-content">
+      <div class="modal-heading">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title" id="modal-title">Give Rating &amp; Review</h2>
+      </div>
+      <div class="modal-body">                 
+        <form id="form">
+          <div class="form-group rating">
+            <h4>Add Rating</h4>
+            <div>
+              <a><img src="images/like.png"> Recommend </a>
+              <a><img src="images/dislike.png"> Not Recommend </a>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="form-group">
+            <h4>Add Review</h4>
+            <div class="col-md-12">
+              <input type="text" class="form-control" placeholder="Title of Review">
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="form-group review">
+            <div class="col-md-12">
+              <textarea class="form-control" placeholder="Write Review"></textarea>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12 text-right limit">200 chars</div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="form-group">
+            <div class="review-btn">
+              <button class="btn add-btn "><i class="glyphicon glyphicon-calendar glyphi-pic"></i> Date of service</button>
+              <button class="btn add-btn "><i class="glyphicon glyphicon-picture glyphi-pic"></i> Add Photos</button>
+          </div>
+          <button data-dismiss="modal" class="btn submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="dependencies/jquery/jquery-3.1.1.min.js"></script>
+  <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

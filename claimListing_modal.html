@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Social Weaver Claim Listing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="dependencies/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="dependencies/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/claimListing_modal.css">
+</head>
+<body>
+
+<div class="">
+  <button class="btn btn-default click-btn" data-toggle="modal" data-target="#myModal">Click me</button>
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" id="modal-content">
+      <div class="modal-heading">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title" id="modal-title">Claim Your Listing</h2>
+      </div>
+      <div class="modal-body">                 
+        <form id="form">
+          <div class="form-group">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="First Name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Business Phone">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Business Email">
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Business Website">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Role of Business">
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="form-group conditions">
+            <div class="col-md-1">
+              <input type="checkbox">
+            </div>
+            <div class="col-md-11">
+              I certify that I am an authorised representative or affiliate of this establishment and have the authority to register as a business representative. The information I have entered into this form is neither false nor fraudulent. I also understand that Social Weaver may disclose my name and affiliation to other verified representatives of this establishment.
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-1">
+              <input type="checkbox">
+            </div>
+            <div class="col-md-11">
+              I agree to the <a>Terms</a> &amp; <a>Conditions</a>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <a data-dismiss="modal" class="submit-btn"><img src="images/submitBtn.png"></a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="dependencies/jquery/jquery-3.1.1.min.js"></script>
+  <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

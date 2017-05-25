@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Social Weaver Onboarding Step2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="dependencies/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="dependencies/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/onboarding_step2.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="common-heading">
+      <h4>Thank you Angela Cole for verfiying your email!</h4>
+      <h4>Tell us more about yourself.</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="life-stage-heading">
+        <h4>Enter Your Life Stage <span class="notes">(Select all that apply)</span></h4>
+      </div>
+      <div class="life-stages">
+        <ul class="list-unstyled list-inline">
+          <li><img src="images/planning.png"></li>
+          <li><img src="images/expecting.png"></li>
+          <li><img src="images/newBorn.png"></li>
+          <li><img src="images/withKids.png"></li>
+          <li><img src="images/experiencedParent.png"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="expected-due-date-heading">
+        <h4>Expected Due Date</h4>
+      </div>
+      <div class="expected-due-date">
+        <input type="date" class="form-control">
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="next">
+    <img src="images/next.png">
+  </div>
+  <div class="row">
+    <div class="steps">
+      <ul class="list-unstyled list-inline">
+        <li><span class="step1">1</span><p>Personal Details</p></span></li>
+        <li><span class="step2">2</span><p class="step2-name">Life Stages</p></span></li>
+        <li><span class="step3">3</span><p>Service Category</p></span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row pull-right">
+    <button class="btn help-btn">Need Help?</button>
+  </div>
+</div>
+
+
+  <script src="dependencies/jquery/jquery-3.1.1.min.js"></script>
+  <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $('img').click(function(){
+    $('.selected').removeClass('selected');
+    $(this).addClass('selected');
+});
+  </script>
+</body>
+</html>
